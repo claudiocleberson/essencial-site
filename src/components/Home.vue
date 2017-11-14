@@ -38,13 +38,13 @@
             <h1 style="font-size: 44px; font-family: monospace">ESSENCIAL</h1>
             <h4 style="font-size: 22px">Simplificando Processos</h4>
             <br>
-            <router-link to="/servicos" tag="a" class="btn btn-default btn-lg" title="">Saiba Mais</router-link>
+            <a href="#" v-scroll-to="'#aboutUs'" class="btn btn-default btn-lg" title="">Saiba Mais</a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="section-container">
+    <div id="aboutUs" class="section-container">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-8 col-md-offset-2">
@@ -252,7 +252,7 @@
         </div>
       </div>
     </div>
-    <div class="section-container">
+    <div id="parceiros" class="section-container">
       <div class="container text-center">
         <div class="row section-container-spacer">
           <div class="col-xs-12 col-md-12">
@@ -418,7 +418,8 @@ export default {
       var x = document.getElementById('contactForm');
       x.submit();
       console.log("Form submitted")
-    }
+    },
+
   }
 }
 </script>
