@@ -1,6 +1,6 @@
 <template>
   <body> <!-- Add your content of header -->
-  <header>
+<!--<header>
     <nav class="navbar navbar-default active">
       <div class="container">
         <div class="navbar-header">
@@ -30,7 +30,9 @@
       </div>
     </nav>
   </header>
-
+-->
+  <div class="footer-container white-text-container" style="margin-top: -10px">
+  </div>
   <div id="pagar_section"  class="section-container">
       <div class="container">
         <div class="row">
@@ -90,26 +92,26 @@
       </div>
     </div>
 
-    <div id="cobraca_section" class="section-container">
-      <div class="container">
-        <div class="row section-container-spacer">
-          <div class="col-xs-12 col-md-8 col-md-offset-2">
-            <h2 class="text-center">ORGANIZAÇÃO E CONTROLE DE COBRANÇA</h2>
-            <div class="section-container-spacer">
-              <ul>
-              <li>Controle</li>
-              <li>Importância</li>
-              <li>Fases da Cobrança</li>
-              <li>Valores</li>
-              </ul>
-              <p>Parceiros (Órgão de Proteção ao Credito, Assessoria de Cobrança administrativa e Judicial)</p>
-
+      <div id="cobraca_section" class="section-container">
+        <div class="container">
+          <div class="row section-container-spacer">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+              <h2 class="text-center">ORGANIZAÇÃO E CONTROLE DE COBRANÇA</h2>
+              <div class="section-container-spacer">
+                <ul>
+                <li>Controle</li>
+                <li>Importância</li>
+                <li>Fases da Cobrança</li>
+                <li>Valores</li>
+                </ul>
+                <p>Parceiros (Órgão de Proteção ao Credito, Assessoria de Cobrança administrativa e Judicial)</p>
+              </div>
+              <img src="../../static/images/img-06.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
             </div>
-            <img src="../../static/images/img-06.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
           </div>
         </div>
       </div>
-    </div>
+
 
     <div id="vendas_section" class="section-container">
       <div class="container">
@@ -163,16 +165,16 @@
       </div>
     </div>
 
-  <footer class="footer-container white-text-container">
+<!--  <footer class="footer-container white-text-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
         <div class="row">
             <div class="col-xs-12 col-sm-7">
-              <a  class="navbar-brand text-top" title="">
+              <router-link to="/" tag="a" class="navbar-brand text-top" title="">
                 <img src="../../static/images/essencial_logo2.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
                  ESSENCIAL
-              </a>
+              </router-link>
             </div>
             <div class="col-xs-12 col-sm-5">
               <p class="text-right">
@@ -192,21 +194,18 @@
       </div>
     </div>
   </footer>
+-->
 </body>
 </template>
 
 <script>
 export default {
-
-created () {
-  document.addEventListener("DOMContentLoaded", function (event) {
-    navActivePage();
-    scrollRevelation('.reveal');
-  });
+  data () {
+    return {
+      sectionTo: this.$route.params.section
+    }
   }
+
 }
+
 </script>
-
-<style>
-
-</style>

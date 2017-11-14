@@ -16,10 +16,14 @@ export default new Router({
       path: '/servicos',
       name: 'Servicos',
       component: Servicos
-    }
+    },
   ],
   mode: 'history',
   scrollBehavior (to, from, savedPosition) {
-   return { x: 0, y: 0 }
+    if(to.hash)
+    {
+      return { selector: to.hash.offSetTop}
+    }
+  return { x: 0, y: 0 }
  }
 })

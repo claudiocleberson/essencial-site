@@ -1,6 +1,6 @@
 <template>
   <body> <!-- Add your content of header -->
-  <header>
+<!--  <header>
     <nav class="navbar navbar-default active">
       <div class="container">
         <div class="navbar-header">
@@ -15,7 +15,6 @@
              ESSENCIAL
           </router-link>
         </div>
-
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <router-link to="/" tag="li"><a>Início</a></router-link>
@@ -30,7 +29,7 @@
       </div>
     </nav>
   </header>
-
+-->
   <!-- Add your site or app content here -->
     <div class="hero-full-container background-image-container white-text-container">
       <div class="container">
@@ -39,7 +38,7 @@
             <h1 style="font-size: 44px; font-family: monospace">ESSENCIAL</h1>
             <h4 style="font-size: 22px">Simplificando Processos</h4>
             <br>
-            <a href="./project.html" class="btn btn-default btn-lg" title="">Saiba Mais</a>
+            <router-link to="/servicos" tag="a" class="btn btn-default btn-lg" title="">Saiba Mais</router-link>
           </div>
         </div>
       </div>
@@ -68,16 +67,11 @@
       <div class="container">
         <div class="row">
             <div class="col-xs-12">
-
-
               <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
-
                   <div class="carousel-inner" role="listbox">
-
                       <div class="item active">
                           <img class="img-responsive" src="../../static/images/img-04.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
-
                             <h3>IMPLANTAÇÃO E REESTRUTURAÇÃO</h3>
                             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                               <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -91,7 +85,7 @@
                               Apresentamos as melhores praticas adotadas pelo mercado e em conjunto com o responsável da área adaptamos conforme a realidade e perfil da empresa, após os processos definidos e aprovados seguimos para verificação junto ao Sistema, avaliamos se a ferramenta atende com segurança todo processo definido como melhor pratica e tomamos alguma ação de manutenção se necessário, por fim apoiamos na montagem da equipe de trabalho, nos treinamentos e avaliação individual da performance de cada integrante.
                             </p>
 
-                            <router-link to="/servicos" tag="a" class="btn btn-primary" title="">
+                            <router-link :to="{name: 'Servicos', hash: ''}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
@@ -116,7 +110,7 @@
                               Protestos, Corte de crédito, necessidade de adiantamentos, dificuldade
                               de Fluxo de Caixa, novos controles e desvalorização da imagem...
                             </p>
-                            <router-link to="/servicos" tag="a" class="btn btn-primary" title="">
+                            <router-link :to="{name: 'Servicos', hash: '#pagar_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
@@ -143,7 +137,7 @@
                             <p>Parceiros (Órgão de Proteção ao Credito, Assessoria
                               de Cobrança administrativa e Judicial)
                             </p>
-                            <router-link to="/servicos" tag="a" class="btn btn-primary" title="">
+                            <router-link :to="{name: 'Servicos', hash: '#cobraca_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
@@ -171,7 +165,7 @@
                               duradouras, oposto também é verdadeiro, se vende mal
                               e não é recompensada com o recebimento.
                             </p>
-                              <router-link to="/servicos" tag="a" class="btn btn-primary" title="">
+                              <router-link :to="{name: 'Servicos', hash: '#vendas_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                               </router-link>
                           </div>
@@ -285,6 +279,27 @@
       </div>
     </div>
 
+
+      <div class="modal" id="formSubmitted" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Mensagem Enviada</h4>
+            </div>
+            <div class="modal-body">
+              <p>Assunto: {{subject}}</p>
+              <p>Mensagem:</p>
+              <p>{{message}}</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" v-on:click="submitForm" class="btn btn-success" data-dismiss="modal">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <div class="section-container contact-container">
       <div class="container">
         <div class="row">
@@ -297,19 +312,19 @@
             </div>
             <div class="card-container">
               <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-                <form action="" class="reveal-content">
+                <form name="Contato" id="contactForm" action="" onsubmit="formsubmited" class="reveal-content" data-netlify="true">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" v-model="email" class="form-control" id="email" placeholder="Email">
                       </div>
                       <div class="form-group">
-                        <input type="text" class="form-control" id="subject" placeholder="Assunto">
+                        <input type="text" v-model="subject" class="form-control" id="subject" placeholder="Assunto">
                       </div>
                       <div class="form-group">
-                        <textarea class="form-control" rows="3" placeholder="Digite sua messagem"></textarea>
+                        <textarea class="form-control" v-model="message" rows="3" placeholder="Digite sua messagem"></textarea>
                       </div>
-                      <button type="submit" class="btn btn-primary">Enviar</button>
+                      <button type="button" :disabled="!formIsValid" data-toggle="modal" data-target="#formSubmitted" class="btn btn-primary">Enviar</button>
                     </div>
                     <div class="col-md-6">
                       <ul class="list-unstyled address-container">
@@ -347,7 +362,7 @@
         </div>
       </div>
     </div>
-  <footer class="footer-container white-text-container">
+<!--  <footer class="footer-container white-text-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -376,26 +391,32 @@
       </div>
     </div>
   </footer>
+-->
 </body>
 </template>
 
 <script>
 export default {
-
-  methods: {
-    fixNavTopBar () {
-
+  data () {
+    return {
+      email: '',
+      subject: '',
+      message: ''
     }
   },
-  created () {
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navbarFixedTopAnimation();
-    });
-
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navActivePage();
-      scrollRevelation('.reveal');
-    });
+  computed :{
+    formIsValid () {
+       return this.email !== ''
+       && this.subject !== ''
+       && this.message !== '';
+     },
+  },
+  methods: {
+    submitForm () {
+      var x = document.getElementById('contactForm');
+      x.submit();
+      console.log("Form submitted")
+    }
   }
 }
 </script>
