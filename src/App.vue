@@ -24,15 +24,14 @@ export default {
  },
   watch: {
     '$route': function(value) {
-     let current = this.$route.name;
+     let current = this.$route.hash;
       if(current == 'Home')
       {
-        console.log(this.$route.name);
+        console.log(this.$route.hash);
       }else{
 
-        console.log(this.$route.name);
+        console.log(this.$route.hash);
       }
-
     }
   },
 }

@@ -26,6 +26,7 @@ Vue.use(VueScrollTo, {
 new Vue({
   el: '#app',
   router,
+  scrollTo,
   template: '<App/>',
   components: { App }
 })

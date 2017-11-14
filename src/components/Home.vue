@@ -85,7 +85,7 @@
                               Apresentamos as melhores praticas adotadas pelo mercado e em conjunto com o responsável da área adaptamos conforme a realidade e perfil da empresa, após os processos definidos e aprovados seguimos para verificação junto ao Sistema, avaliamos se a ferramenta atende com segurança todo processo definido como melhor pratica e tomamos alguma ação de manutenção se necessário, por fim apoiamos na montagem da equipe de trabalho, nos treinamentos e avaliação individual da performance de cada integrante.
                             </p>
 
-                            <router-link :to="{name: 'Servicos', hash: ''}" tag="a" class="btn btn-primary" title="">
+                            <router-link :to="{name: 'Servicos', hash: '#pagar_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
