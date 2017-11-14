@@ -311,10 +311,13 @@
             </div>
             <div class="card-container">
               <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-                <form name="Contato" action="thank-you" id="contactForm" class="reveal-content" data-netlify="true">
+                <form  name="NovoContato" netlify-honeypot="bot-field" action="" id="contactForm" class="reveal-content" netlify>
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
+                        <p class="hidden">
+                          <label>Don’t fill this out: <input name="bot-field"></label>
+                        </p>
                         <input type="email" v-model="email" class="form-control" id="email" placeholder="Email">
                       </div>
                       <div class="form-group">

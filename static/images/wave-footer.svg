@@ -5,9 +5,5 @@
 	 viewBox="0 0 1294 216" enable-background="new 0 0 1294 216" xml:space="preserve">
 <title>wave_footer</title>
 <desc>Created with Sketch.</desc>
-<g id="Ressource">
-	<g id="wave_footer">
-		<path id="Image-Hero-Copy" fill="#0000FF" d="M0,216h1294V0c-215.5,10-431,14.9-646.5,14.9S216.2,10,0,0V216z"/>
-	</g>
-</g>
+<path id="Image-Hero-Copy" fill="#000044" d="M0,216h1294V0c-215.5,10-431,14.9-646.5,14.9S216.2,10,0,0V216z"/>
 </svg>
