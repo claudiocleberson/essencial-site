@@ -279,7 +279,6 @@
       </div>
     </div>
 
-
       <div class="modal" id="formSubmitted" role="dialog">
         <div class="modal-dialog">
           <!-- Modal content-->
@@ -312,7 +311,7 @@
             </div>
             <div class="card-container">
               <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-                <form name="Contato" id="contactForm" action="" onsubmit="formsubmited" class="reveal-content" data-netlify="true">
+                <form name="Contato" action="thank-you" id="contactForm" class="reveal-content" data-netlify="true">
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">

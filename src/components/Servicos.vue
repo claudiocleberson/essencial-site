@@ -31,7 +31,7 @@
     </nav>
   </header>
 -->
-  <div class="footer-container white-text-container" style="margin-top: -10px">
+  <div class="footer-container white-text-container" style="margin-top: -15px">
   </div>
   <div id="pagar_section"  class="section-container">
       <div class="container">
