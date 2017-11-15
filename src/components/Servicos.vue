@@ -216,9 +216,13 @@ export default {
     }
   },
   created () {
-    setTimeout((()=>{
-    this.$scrollTo(this.$route.hash);
-  }),250);
+    let hash = this.$route.hash;
+    if(hash)
+      {
+      setTimeout((()=>{
+      this.$scrollTo(this.$route.hash);
+      }),250);
+    }
   }
 }
 

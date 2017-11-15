@@ -432,7 +432,6 @@ export default {
       x.submit();
       console.log("Form submitted")
     },
-
   }
 }
 </script>
