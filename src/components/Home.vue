@@ -50,13 +50,15 @@
           <div class="col-xs-12 col-md-8 col-md-offset-2">
             <div class="text-center">
               <h2>A Essencial</h2>
-              <p>Assessoria de departamento Financeiro, voltada ao
-                desenvolvimento contínuo dos processos, sistemas e integrantes,
-                nosso objetivo é a solução permanente dos problemas do dia-a-dia,
-                entendemos que diante de processos simples e eficientes, sistemas
-                parametrizados e profissionais treinados os recursos financeiros da
-                 empresa estarão preservados, é este o equilíbrio que a ESSENCIAL
-                 trabalha e leva a seus clientes.</p>
+              <p>Somos uma <strong>Assessoria para departamento Financeiro</strong>,
+                voltada ao desenvolvimento contínuo dos processos,
+                sistemas e integrantes, nosso objetivo é através da
+                simplicidade solucionar os problemas de maneira
+                permanente, entendemos que diante de processos
+                eficientes, sistemas parametrizados e profissionais
+                treinados os recursos financeiros e a imagem da empresa
+                são preservados, é este o equilíbrio que buscamos levar
+                a nossos clientes.</p>
             </div>
          </div>
         </div>
@@ -70,9 +72,11 @@
               <div id="carousel-example-generic" class="carousel carousel-fade slide" data-ride="carousel">
                   <div class="carousel-inner" role="listbox">
                       <div class="item active">
-                          <img class="img-responsive" src="../../static/images/img-04.jpg" alt="First slide">
+                          <img class="img-responsive" src="../../static/images/reestruturacaoImg.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
-                            <h3>IMPLANTAÇÃO E REESTRUTURAÇÃO</h3>
+                            <h4 style="color: #1763e9; margin-top: 30px">
+                              <strong>REESTRUTURAÇÃO – PROCESSO / SISTEMA / INTEGRANTE</strong>
+                            </h4>
                             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                               <i class="fa fa-chevron-left" aria-hidden="true"></i>
                               <span class="sr-only">Anterior</span>
@@ -81,20 +85,28 @@
                               <i class="fa fa-chevron-right" aria-hidden="true"></i>
                               <span class="sr-only">Proxímo</span>
                             </a>
-                            <p>
-                              Apresentamos as melhores praticas adotadas pelo mercado e em conjunto com o responsável da área adaptamos conforme a realidade e perfil da empresa, após os processos definidos e aprovados seguimos para verificação junto ao Sistema, avaliamos se a ferramenta atende com segurança todo processo definido como melhor pratica e tomamos alguma ação de manutenção se necessário, por fim apoiamos na montagem da equipe de trabalho, nos treinamentos e avaliação individual da performance de cada integrante.
-                            </p>
-
-                            <router-link :to="{name: 'Servicos', hash: '#pagar_section'}" tag="a" class="btn btn-primary" title="">
+                            <ul>
+                              <li>Diagnóstico do departamento Financeiro;</li>
+                              <li>Simplicidade nos processos e praticidade nas tomadas de decisão;</li>
+                              <li>Melhoria dos controles internos;</li>
+                              <li>Eliminação da redundância de atividades;</li>
+                              <li>Aumento da eficiência no acesso a informação;</li>
+                              <li>Aumento da produtividade;</li>
+                              <li>Redução nos limites de tempo de resposta ao mercado;</li>
+                              <li>Integração dos departamentos e das informações.</li>
+                            </ul>
+                            <router-link :to="{name: 'Servicos', hash: '#reestruturacao_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
                       </div>
                       <div class="item">
-                          <img class="img-responsive" src="../../static/images/img-05.jpg" alt="First slide">
+                          <img class="img-responsive" src="../../static/images/organizacaocreditoImg.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
 
-                            <h3>ORGANIZAÇÃO E CONTROLE DE CONTAS A PAGAR</h3>
+                              <h4 style="color: #1763e9; margin-top: 30px">
+                                <strong>ORGANIZAÇÃO E CONTROLE – CADASTRO, CRÉDITO E COBRANÇA.</strong>
+                              </h4>
                               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                                 <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 <span class="sr-only">Anterior</span>
@@ -103,23 +115,26 @@
                                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                 <span class="sr-only">Próximo</span>
                               </a>
-                            <p>
-                              Desorganização e falta de solução permanente nos processos e sistemas,
-                              assim como devida orientação aos Integrantes são os maiores causadores
-                              pelos pagamentos em duplicidade, atrasos que trazem em cadeia: Juros,
-                              Protestos, Corte de crédito, necessidade de adiantamentos, dificuldade
-                              de Fluxo de Caixa, novos controles e desvalorização da imagem...
-                            </p>
-                            <router-link :to="{name: 'Servicos', hash: '#pagar_section'}" tag="a" class="btn btn-primary" title="">
+                              <ul>
+                                <li>Intermediar – Interesses departamentos (Comercial x Financeiro);</li>
+                                <li>Crédito - Aumento de Venda x Redução de Inadimplência;</li>
+                                <li>Definir e Simplificar - Politica de Crédito e Cobrança;</li>
+                                <li>Preservar - Imagem frente aos Clientes e Recursos Financeiros;</li>
+                                <li>Solução Permanente - Problemas nos Processos e Sistema;</li>
+                                <li>Cobrança – Cumprir rigorosamente as etapas.</li>
+                              </ul>
+                            <router-link :to="{name: 'Servicos', hash: '#organizacaocredito_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
                       </div>
                       <div class="item">
-                          <img class="img-responsive" src="../../static/images/img-06.jpg" alt="First slide">
+                          <img class="img-responsive" src="../../static/images/organizacaopagarImg.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
 
-                            <h3>ORGANIZAÇÃO E CONTROLE DE COBRANÇA</h3>
+                            <h4 style="color: #1763e9; margin-top: 30px">
+                              <strong>ORGANIZAÇÃO E CONTROLE - CONTAS A PAGAR</strong>
+                            </h4>
                               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                                 <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 <span class="sr-only">Anterior</span>
@@ -129,23 +144,22 @@
                                 <span class="sr-only">Próximo</span>
                               </a>
                             <ul>
-                              <li>Controle</li>
-                              <li>Importância </li>
-                              <li>Fases da Cobrança</li>
-                              <li>Valores</li>
+                              <li>Intermediar – Interesses departamentos (Compras x Financeiro);</li>
+                              <li>Definir e Simplificar - Politica de Pagamento;</li>
+                              <li>Preservar - Imagem frente ao Mercado e Recursos Financeiros;</li>
+                              <li>Solução Permanente – Problemas com Processos e Sistema;</li>
                             </ul>
-                            <p>Parceiros (Órgão de Proteção ao Credito, Assessoria
-                              de Cobrança administrativa e Judicial)
-                            </p>
-                            <router-link :to="{name: 'Servicos', hash: '#cobraca_section'}" tag="a" class="btn btn-primary" title="">
+                            <router-link :to="{name: 'Servicos', hash: '#organizacaopagar_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                             </router-link>
                           </div>
                       </div>
                       <div class="item">
-                          <img class="img-responsive" src="../../static/images/img-07.jpg" alt="First slide">
+                          <img class="img-responsive" src="../../static/images/treinamentoImg.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
-                            <h3>AUMENTAR VOLUME DE VENDAS E REDUZIR A INADIMPLÊNCIA</h3>
+                            <h4 style="color: #1763e9; margin-top: 30px">
+                              <strong>TREINAMENTOS E PALESTRAS PERSONALIZADAS</strong>
+                            </h4>
                               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                                 <i class="fa fa-chevron-left" aria-hidden="true"></i>
                                 <span class="sr-only">Anterior</span>
@@ -154,18 +168,14 @@
                                 <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                 <span class="sr-only">Próximo</span>
                               </a>
-                            <p>Empresas só se mantem em quanto vender seus
-                              produtos e/ou serviços, por outro lado nada
-                              adianta vender e não receber, muitas buscam
-                              combater a Inadimplência colocando regras “frias”
-                              em seus procedimentos e não levam em consideração os
-                              fatores positivos no momento da analise de crédito,
-                              diante disso se perde vendas que poderia se reverter
-                              não só no recebimento normal quanto em parcerias
-                              duradouras, oposto também é verdadeiro, se vende mal
-                              e não é recompensada com o recebimento.
-                            </p>
-                              <router-link :to="{name: 'Servicos', hash: '#vendas_section'}" tag="a" class="btn btn-primary" title="">
+                              <ul>
+                                <li>Temas a partir da dificuldade da empresa;</li>
+                                <li>Desenvolvimento Contínuo do Integrante;</li>
+                                <li>Validação do entendimento quanto a Processos e Sistema;</li>
+                                <li>Integração e espirito de Equipe;</li>
+                                <li>Valorização e Motivação do Integrante;</li>
+                              </ul>
+                              <router-link :to="{name: 'Servicos', hash: '#treinamento_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
                               </router-link>
                           </div>
@@ -181,16 +191,15 @@
         <div class="row section-container-spacer">
           <div class="col-xs-12 col-md-12">
             <h2>Quem somos</h2>
-            <p>Amigos e companheiros de trabalho em empresa de grande
-              porte da Construção Civil, hoje sócios, Renan Moura e
-              Claudio Pereira sempre em conversas informais discutiam a
-              dificuldade que as empresas possuem em fazer bem o “Básico”,
-              falávamos que havia muita busca por Consultorias, processos,
-              ferramentas “avançadas” antes mesmo de encontrarem a “excelência”
-              nos processos mais “Simples”, foi então a decisão por levar
-              eficiência através da simplicidade ao mercado fundando a
-              ESSENCIAL, onde a ideia é levar o que o significado no nome
-              já diz: “Dar atenção ao que é muito necessário”.</p>
+            <p>Amigos e companheiros de trabalho em empresa de grande porte
+               da Construção Civil, hoje sócios, Renan Moura e Claudio Pereira
+               sempre em conversas informais discutiam a dificuldade que as empresas
+               possuem em fazer bem o “Básico”, falávamos que havia muita busca por
+               Consultorias, Processos, ferramentas em níveis “avançados” antes mesmo
+               de encontrarem a “Excelência” nos processos mais “Simples”, foi então
+               a decisão por levar eficiência através da simplicidade ao mercado
+               fundando a ESSENCIAL, onde a ideia é levar o que o significado no nome
+               já diz: “Dar atenção ao que é muito necessário”.</p>
           </div>
         </div>
         <div class="row">
@@ -199,35 +208,35 @@
             <h3>Renan Carlos</h3>
             <h4>Gestor de Marketing e MBA em Gestão Empresarial pela FGV</h4>
             <p>15 anos de experiência na área Admistravista e Financeira em empresas de grande porte. Soma a parceria como
-            como Accessor, Intrutor, palestrante e orientador aos processos vinculados a Gestão Comercial.</p>
+            como Consultor, Intrutor, Palestrante e orientador aos processos vinculados a Gestão Comercial.</p>
             <p>
-              <a href="https://facebook.com/" class="social-round-icon fa-icon" title="">
+              <a href="https://facebook.com/renancarlos.moura" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="https://twitter.com/" class="hidden social-round-icon fa-icon" title="">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="https://www.linkedin.com/" class="social-round-icon fa-icon" title="">
+              <a href="https://www.linkedin.com/renan-moura-846316143/" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <img src="../../static/images/profil-03.jpg" alt="" class="reveal img-responsive reveal-content image-center">
+            <img src="../../static/images/Claudio_gray.jpg" alt="" class="reveal img-responsive reveal-content image-center">
             <h3>Claudio Pereira</h3>
-            <h4>Administrado de Empresas</h4>
+            <h4>Administrador de Empresas</h4>
             <p>Mais de 10 anos de experiência nas aréas Administrativas,
               Finaceiro e Contábil. Soma a parceria como Palestrante,
               Instrutor e orientador aos processos vinculados a Gestão Contábil e Fiscal.
             </p>
             <p>
-              <a href="https://facebook.com/" class="social-round-icon fa-icon" title="">
+              <a href="https://www.facebook.com/claudio.pereira.3950" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
               <a href="https://twitter.com/" class="hidden social-round-icon fa-icon" title="">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="https://www.linkedin.com/" class="social-round-icon fa-icon" title="">
+              <a href="https://www.linkedin.com/in/claudio-pereira-06416a49/" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </p>
@@ -264,16 +273,20 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <img src="../../static/images/logo-01.png" alt="" class="img-responsive reveal-content image-center">
-
+          <div  class="col-xs-12 col-md-4">
+            <a href="http://www.ajaxbr.com.br" title="Website da Ajax">
+              <img  src="../../static/images/ajax_logo.png" alt="" class="img-responsive reveal-content image-center">
+            </a>
+            </div>
+          <div  class="col-xs-12 col-md-4">
+            <a href="http://www.assystem.com.br" title="Web site da Assystem">
+                <img  src="../../static/images/assystem_logo.png" alt="" class="img-responsive reveal-content image-center">
+            </a>
           </div>
-
           <div class="col-xs-12 col-md-4">
-            <img src="../../static/images/logo-02.png" alt="" class="img-responsive reveal-content image-center">
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <img src="../../static/images/logo-03.png" alt="" class="img-responsive reveal-content image-center">
+            <a title="Website Credito e Cobraça" href="http://www.creditoecobraca.com"  target="_blank">
+              <img src="../../static/images/creditocobraca_logo.png" alt="" class="img-responsive reveal-content image-center">
+            </a>
           </div>
         </div>
       </div>
@@ -334,7 +347,7 @@
                           <span class="fa-icon">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                           </span>
-                          (011)964-774-503
+                          (011)96477-4503
                         </li>
                         <li style="word-wrap: normal">
                           <span class="fa-icon">

@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <app-header></app-header>
-      <router-view></router-view>
+      <transition name="" mode="out-in">
+        <router-view></router-view>
+      </transition>
     <app-footer></app-footer>
   </div>
 </template>
@@ -37,6 +39,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>

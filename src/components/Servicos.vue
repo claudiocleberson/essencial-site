@@ -33,112 +33,122 @@
 -->
   <div class="footer-container white-text-container" style="margin-top: -15px">
   </div>
-      <div id="pagar_section"  class="section-container">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-8 col-md-offset-2">
-                <h2 class="text-center">CONTAS A PAGAR E CONTAS A RECEBER</h2>
-                <p>Apresentamos as melhores praticas adotadas pelo mercado e
-                  em conjunto com o responsável da área adaptamos conforme a
-                  realidade e perfil da empresa, após os processos definidos e
-                  aprovados seguimos para verificação junto ao Sistema,
-                  avaliamos se a ferramenta atende com segurança todo processo
-                  definido como melhor pratica e tomamos alguma ação de manutenção
-                  se necessário, por fim apoiamos na montagem da equipe de trabalho,
-                  nos treinamentos e avaliação individual da performance de cada integrante. </p>
-                <div class="section-container-spacer">
-                  <img src="../../static/images/img-07.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-                </div>
-
-                <div class="row">
-                  <div class="col-xs-6">
-                    <img src="../../static/images/img-04.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-                  </div>
-                  <div class="col-xs-6">
-                    <img src="../../static/images/img-07.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-                  </div>
-                </div>
-             </div>
-            </div>
+    <div id="reestruturacao_section"  class="section-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+              <h3 style="color: #1763e9" class="text-center">REESTRUTURAÇÃO – PROCESSO / SISTEMA / INTEGRANTE</h3>
+              <p>Apresentamos de maneira simples as melhores práticas
+                 adotadas pelo mercado, em conjunto com o Gerente Financeiro
+                 adaptamos conforme a realidade e perfil da empresa,
+                 após definido e aprovado seguimos para verificação junto ao
+                 Sistema, trabalhamos o mesmo para que atenda o processo e por
+                 fim nos concentramos elaborando e aplicando treinamentos aos
+                 Integrantes da equipe e assim os desenvolvendo continuamente. </p>
+              <div class="section-container-spacer">
+                <img src="../../static/images/reestruturacaoImg.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+              </div>
+           </div>
           </div>
         </div>
+      </div>
 
-        <div id="receber_section" class="section-container">
+        <div id="organizacaocredito_section" class="section-container">
           <div class="container">
             <div class="row section-container-spacer">
               <div class="col-xs-12 col-md-8 col-md-offset-2">
-                <h2 class="text-center">ORGANIZAÇÃO E CONTROLE DE CONTAS A PAGAR</h2>
-                <div class="section-container-spacer">
-                  <p>Desorganização e falta de solução permanente
-                    nos processos e sistemas, assim como devida
-                    orientação aos Integrantes são os maiores causadores
-                    pelos pagamentos em duplicidade, atrasos que trazem
-                    em cadeia: Juros, Protestos, Corte de crédito,
-                    necessidade de adiantamentos, dificuldade de
-                    Fluxo de Caixa, novos controles e desvalorização da
-                    imagem. <br>
-                    A partir daí que a ESSENCIAL identificando este problema
-                    que resulta em prejuízo financeiro nas empresas reuniu
-                    praticas simples e já conhecidas pelo mercado, apresenta
-                    aos responsáveis dos departamentos FINANCEIRO e COMPRAS,
-                    intermedia os interesses e juntos criamos um manual das
-                    melhores praticas de compras, que é revisado periodicamente
-                    de acordo com os resultados, até a consolidação dos processos e
-                    eliminação dos problemas.</p>
-                </div>
-                <img src="../../static/images/img-04.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-              </div>
-            </div>
-          </div>
-        </div>
-
-          <div id="cobraca_section" class="section-container">
-            <div class="container">
-              <div class="row section-container-spacer">
-                <div class="col-xs-12 col-md-8 col-md-offset-2">
-                  <h2 class="text-center">ORGANIZAÇÃO E CONTROLE DE COBRANÇA</h2>
-                  <div class="section-container-spacer">
-                    <ul>
-                    <li>Controle</li>
-                    <li>Importância</li>
-                    <li>Fases da Cobrança</li>
-                    <li>Valores</li>
-                    </ul>
-                    <p>Parceiros (Órgão de Proteção ao Credito, Assessoria de Cobrança administrativa e Judicial)</p>
-                  </div>
-                  <img src="../../static/images/img-06.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        <div id="vendas_section" class="section-container">
-          <div class="container">
-            <div class="row section-container-spacer">
-              <div class="col-xs-12 col-md-8 col-md-offset-2">
-                <h2 class="text-center">AUMENTAR VOLUME DE VENDAS E REDUZIR A INADIMPLÊNCIA </h2>
+                <h3 style="color: #1763e9" class="text-center">ORGANIZAÇÃO E CONTROLE – CADASTRO, CRÉDITO E COBRANÇA</h3>
                 <div class="section-container-spacer">
                   <p>Empresas só se mantem em quanto vender seus produtos e/ou
                     serviços, por outro lado nada adianta vender e não receber,
-                    muitas buscam combater a Inadimplência colocando regras
-                    “frias” em seus procedimentos e não levam em consideração os
-                    fatores positivos no momento da analise de crédito, diante
-                    disso se perde vendas que poderia se reverter não só no recebimento
+                    muitas buscam combater a Inadimplência colocando regras “frias”
+                    em seus procedimentos e não levam em consideração os fatores
+                    positivos no momento da analise de crédito, diante disso se
+                    perdem vendas que poderiam se reverter não só no recebimento
                     normal quanto em parcerias duradouras, oposto também é verdadeiro,
-                    se vende mal e não é recompensada com o recebimento. <br>
-                    Notório a dificuldade do mercado em encontrar o equilíbrio,
-                    por vez Departamentos Comerciais e Financeiros estão em conflito
-                    por conta da falta de uma definição conjunta da politica de
-                    analise de crédito. A partir daí que a ESSENCIAL identificando
-                    este problema que resulta em prejuízo financeiro para as
-                    empresas reuniu praticas simples e já conhecidas pelo mercado,
-                    apresenta aos responsáveis dos departamentos FINANCEIRO e COMERCIAL,
-                    intermedia os interesses e juntos criamos um manual das melhores
-                    pratica de vendas, que é revisado periodicamente de acordo com
-                    os resultados, até o encontro do Equilíbrio para VENDER+ e PERDER-.</p>
+                    se vende mal e não é recompensada com o recebimento. Notório a
+                    dificuldade do mercado em encontrar o equilíbrio, por vez
+                    Departamentos Comerciais e Financeiros estão em conflito,
+                    entendemos que seja por conta da falta de uma definição conjunta
+                    da politica de analise de crédito.
+                  <br>
+                  A falta de solução permanente nos processos e sistemas, assim como
+                   ausência de orientação aos Integrantes são os maiores causadores
+                   por um processo de Cobrança descontinuado, demorado e desorganizado,
+                   desencadeando uma série de problemas, como: Dificuldade de Fluxo de
+                    Caixa por conta da demora no cumprimento das etapas/ciclo de cobrança,
+                     contando também com desgastes com clientes, processos judiciais,
+                     desvalorização da marca, conflitos internos, despesas desnecessárias,
+                     por conta de cobranças ou protestos indevidos.
+                  <br>
+                  A partir destes problemas que geram prejuízo financeiro e desgaste da
+                  imagem frente ao mercado apresentamos, discutimos e definimos praticas
+                  simples em conjunto com os responsáveis dos departamentos FINANCEIRO e
+                  COMERCIAL, intermediamos os interesses entre eles e em conjunto criamos
+                  um manual das melhores praticas que é revisado periodicamente de acordo
+                  com os resultados obtidos, até o encontro do Equilíbrio para VENDER MAIS e
+                  PERDER MENOS.
+                  </p>
+                </div>
+                <img src="../../static/images/organizacaocreditoImg.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div id="organizacaopagar_section" class="section-container">
+            <div class="container">
+              <div class="row section-container-spacer">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                  <h3 style="color: #1763e9" class="text-center">ORGANIZAÇÃO E CONTROLE - CONTAS A PAGAR</h3>
+                  <div class="section-container-spacer">
+                    <p>Desorganização e falta de solução permanente nos
+                      processos e sistemas, assim como a ausência de
+                      orientação aos Integrantes são os maiores causadores
+                      pelos pagamentos em duplicidade, atrasos que trazem em
+                      cadeia: Juros, Protestos, Corte de crédito, necessidade
+                      de adiantamentos, dificuldade de Fluxo de Caixa, novos
+                      controles e desvalorização da imagem.
+                      <br>
+                      A partir destes problemas que geram prejuízo financeiro e
+                      desgaste da imagem frente ao mercado apresentamos, discutimos e
+                      definimos adotar praticas simples em conjunto com os responsáveis
+                      dos departamentos FINANCEIRO e SUPRIMENTOS, intermediamos os
+                      interesses entre eles e em conjunto criamos um manual das
+                      melhores praticas que é revisado periodicamente de acordo
+                      com os resultados, até a consolidação dos processos e eliminação
+                      dos problemas.
+                    </p>
+                  </div>
+                  <img src="../../static/images/organizacaopagarImg.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div id="treinamento_section" class="section-container">
+          <div class="container">
+            <div class="row section-container-spacer">
+              <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <h3 style="color: #1763e9" class="text-center">TREINAMENTOS E PALESTRAS PERSONALIZADAS</h3>
+                <div class="section-container-spacer">
+                  <p>
+                    Atuamos com a personalização de treinamentos,
+                    pautados na orientação as rotinas que envolvem
+                    diretamente ou indiretamente o departamento Financeiro,
+                    temas sugeridos a partir das dificuldades enfrentadas pela empresa.
+                    <br>
+                    Acreditamos que de nada vale um processo e sistema bem ajustado,
+                    se o Integrante não estiver preparado, a empresa continuara com
+                    a sensação de que está tudo errado, para nós na escala de prioridades
+                    o ser humano está em 1º lugar, acreditamos que dado à importância
+                    necessária para o trabalho que o mesmo executa, ele tende a se
+                    desenvolver constantemente assim como valorizar e depositar
+                    cuidado em tudo que faz.
+                  </p>
                     </div>
-                <img src="../../static/images/img-05.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
+                <img src="../../static/images/treinamentoImg.jpg" alt="" class="img-responsive reveal-content" data-action="zoom">
               </div>
             </div>
           </div>

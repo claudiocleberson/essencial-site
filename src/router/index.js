@@ -17,7 +17,7 @@ export default new Router({
       name: 'Servicos',
       component: Servicos
     },
-    {path: '*', redirect: '/'}
+    {path: '/*', redirect: '/'}
   ],
   mode: 'history',
   scrollBehavior (to, from, savedPosition) {
