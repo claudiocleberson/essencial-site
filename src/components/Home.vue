@@ -177,8 +177,10 @@
             <img src="../../static/images/profil-01.jpg" alt="" class="reveal img-responsive reveal-content image-center">
             <h3>Renan Moura</h3>
             <h4>Gestor de Marketing e MBA em Gestão Empresarial pela FGV</h4>
-            <p>15 anos de experiência na área Administrativa Financeira em empresas de grande porte. Soma a parceria como Consultor, Instrutor,
-              Palestrante e Orientador aos processos vinculados a Gestão Comercial. </p>
+            <p>15 anos de experiência na área Administrativa Financeira em
+              empresas de grande porte. Soma a parceria como Consultor,
+              Instrutor, Palestrante e Orientador aos processos vinculados
+              a Gestão Comercial. </p>
             <p>
               <a href="https://facebook.com/renancarlos.moura" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
