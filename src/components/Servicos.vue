@@ -1,36 +1,5 @@
 <template>
   <body> <!-- Add your content of header -->
-<!--<header>
-    <nav class="navbar navbar-default active">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <router-link to="/" tag="a" class="navbar-brand"  title="">
-            <img src="../../static/images/essencial_logo.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
-             ESSENCIAL
-          </router-link>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <router-link to="/" tag="li"><a>Início</a></router-link>
-            <router-link to="/servicos" tag="li"><a>Serviços</a></router-link>
-            <li>
-              <p class="hidden">
-                <a href="./components.html" class="btn btn-default navbar-btn" title="">Components</a>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
--->
   <div class="footer-container white-text-container" style="margin-top: -15px">
   </div>
     <div id="reestruturacao_section"  class="section-container">
@@ -160,13 +129,13 @@
 
                 <h4>Aproveite e visite-nos nas redes sociais</h4>
                 <p>
-                  <a href="https://facebook.com/" class="social-round-icon fa-icon" title="">
+                  <a href="https://www.facebook.com/ESSENCIALNAGESTAO/" class="social-round-icon fa-icon" title="">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                   </a>
-                  <a href="https://twitter.com/" class="social-round-icon fa-icon" title="">
+                  <a href="https://twitter.com/essencialgestao" class="social-round-icon fa-icon" title="">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                   </a>
-                  <a href="https://www.linkedin.com/" class="social-round-icon fa-icon" title="">
+                  <a href="https://www.linkedin.com/company/essencial-na-gestão/" class="social-round-icon fa-icon" title="">
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </p>
@@ -174,36 +143,7 @@
             </div>
           </div>
         </div>
-<!--  <footer class="footer-container white-text-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-        <div class="row">
-            <div class="col-xs-12 col-sm-7">
-              <router-link to="/" tag="a" class="navbar-brand text-top" title="">
-                <img src="../../static/images/essencial_logo2.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
-                 ESSENCIAL
-              </router-link>
-            </div>
-            <div class="col-xs-12 col-sm-5">
-              <p class="text-right">
-                <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
--->
+
 </body>
 </template>
 
