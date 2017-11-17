@@ -186,11 +186,7 @@
               <a href="https://twitter.com/" class="hidden social-round-icon fa-icon" title="">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-<<<<<<< HEAD
               <a href="https://www.linkedin.com/in/renan-moura-846316143/" class="social-round-icon fa-icon" title="">
-=======
-              <a href="https://www.linkedin.com/in/renan-moura-a5644930/" class="social-round-icon fa-icon" title="">
->>>>>>> c47d591b3c425877cf94741354a0a6320832c980
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </p>
@@ -199,16 +195,10 @@
             <img src="../../static/images/Claudio_gray.jpg" alt="" class="reveal img-responsive reveal-content image-center">
             <h3>Claudio Pereira</h3>
             <h4>Administrador de Empresas</h4>
-<<<<<<< HEAD
             <p>Mais de 10 anos de experiência nas áreas Administrativa,
               Financeira e Contábil. Soma a parceria como Instrutor,
               palestrante e Orientador aos processos vinculados a
               Gestão Contábil e Fiscal.
-=======
-            <p>Mais de 10 anos de experiência nas aréas Administrativas,
-              Finaceira e Contábil. Soma a parceria como Palestrante,
-              Instrutor e orientador aos processos vinculados a Gestão Contábil e Fiscal.
->>>>>>> c47d591b3c425877cf94741354a0a6320832c980
             </p>
             <p>
               <a href="https://www.facebook.com/claudio.pereira.3950" class="social-round-icon fa-icon" title="">
