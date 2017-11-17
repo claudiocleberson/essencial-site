@@ -11,19 +11,9 @@
 <script>
 export default {
   name: 'app',
-
   methods: {
 
   },
-  created () {
-  document.addEventListener("DOMContentLoaded", function(){
-      navbarFixedTopAnimation();
-  });
-  //document.addEventListener("DOMContentLoaded", function (event) {
-  //   navActivePage();
-  //   scrollRevelation('.reveal');
-  //});
- },
   watch: {
     '$route': function(value) {
      let current = this.$route.hash;

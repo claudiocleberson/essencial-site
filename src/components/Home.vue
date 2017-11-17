@@ -1,35 +1,5 @@
 <template>
   <body> <!-- Add your content of header -->
-<!--  <header>
-    <nav class="navbar navbar-default active">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <router-link to="/" tag="a" class="navbar-brand"  title="">
-            <img src="../../static/images/essencial_logo.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
-             ESSENCIAL
-          </router-link>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <router-link to="/" tag="li"><a>Início</a></router-link>
-            <router-link to="/servicos" tag="li"><a>Serviços</a></router-link>
-            <li class="hidden">
-              <p>
-                <a href="./components.html" class="btn btn-default navbar-btn" title="">Components</a>
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
--->
   <!-- Add your site or app content here -->
     <div class="hero-full-container background-image-container white-text-container">
       <div class="container">
@@ -205,10 +175,10 @@
         <div class="row">
           <div class="col-xs-12 col-md-6">
             <img src="../../static/images/profil-01.jpg" alt="" class="reveal img-responsive reveal-content image-center">
-            <h3>Renan Carlos</h3>
+            <h3>Renan Moura</h3>
             <h4>Gestor de Marketing e MBA em Gestão Empresarial pela FGV</h4>
-            <p>15 anos de experiência na área Admistravista e Financeira em empresas de grande porte. Soma a parceria como
-            como Consultor, Intrutor, Palestrante e orientador aos processos vinculados a Gestão Comercial.</p>
+            <p>15 anos de experiência na área Administrativa Financeira em empresas de grande porte. Soma a parceria como Consultor, Instrutor,
+              Palestrante e Orientador aos processos vinculados a Gestão Comercial. </p>
             <p>
               <a href="https://facebook.com/renancarlos.moura" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -216,7 +186,7 @@
               <a href="https://twitter.com/" class="hidden social-round-icon fa-icon" title="">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="https://www.linkedin.com/renan-moura-846316143/" class="social-round-icon fa-icon" title="">
+              <a href="https://www.linkedin.com/in/renan-moura-a5644930/" class="social-round-icon fa-icon" title="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
             </p>
@@ -226,7 +196,7 @@
             <h3>Claudio Pereira</h3>
             <h4>Administrador de Empresas</h4>
             <p>Mais de 10 anos de experiência nas aréas Administrativas,
-              Finaceiro e Contábil. Soma a parceria como Palestrante,
+              Finaceira e Contábil. Soma a parceria como Palestrante,
               Instrutor e orientador aos processos vinculados a Gestão Contábil e Fiscal.
             </p>
             <p>
@@ -284,7 +254,7 @@
             </a>
           </div>
           <div class="col-xs-12 col-md-4">
-            <a title="Website Credito e Cobraça" href="http://www.creditoecobraca.com"  target="_blank">
+            <a title="Website Credito e Cobraça" href="http://www.creditoecobranca.com.br"  target="_blank">
               <img src="../../static/images/creditocobraca_logo.png" alt="" class="img-responsive reveal-content image-center">
             </a>
           </div>
@@ -318,9 +288,8 @@
           <div class="col-xs-12 col-md-12">
             <div class="section-container-spacer">
               <h2 class="text-center">Contato</h2>
-              <p class="text-center">Contate-nos, que teremos o
-                prazer de esclarescer dúvidas, e ajudar a melhorar os
-                processos financeiro das sua empresa.</p>
+              <p class="text-center">Contate-nos, teremos o prazer de
+                esclarecer dúvidas, e apoiar na valorização de sua empresa.</p>
             </div>
             <div class="card-container">
               <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
@@ -370,43 +339,13 @@
                   </div>
                 </form>
               </div>
-              <div class="card-image col-xs-12" style="background-image: url('../../static/images/img-01.jpg')">
+              <div class="card-image col-xs-12" style="background-image: url('../../static/images/contatoImg.jpeg')">
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-<!--  <footer class="footer-container white-text-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="row">
-          <div class="col-xs-12 col-sm-7">
-            <router-link to="/" tag="a" class="navbar-brand text-top" title="">
-              <img src="../../static/images/essencial_logo2.png" class="navbar-logo-img" style="margin-right: 10px" alt="">
-               ESSENCIAL
-            </router-link>
-           </div>
-            <div class="col-xs-12 col-sm-5">
-              <p class="text-right">
-                <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-                <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-                <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
--->
 </body>
 </template>
 

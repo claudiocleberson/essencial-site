@@ -33,7 +33,15 @@
 
 <script>
 export default {
-
+  created () {
+  document.addEventListener("DOMContentLoaded", function(){
+      navbarFixedTopAnimation();
+  });
+  //document.addEventListener("DOMContentLoaded", function (event) {
+  //   navActivePage();
+  //   scrollRevelation('.reveal');
+  //});
+}
 }
 </script>
 
