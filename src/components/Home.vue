@@ -22,13 +22,12 @@
               <h2>A Essencial</h2>
               <p>Somos uma <strong>Assessoria para departamento Financeiro</strong>,
                 voltada ao desenvolvimento contínuo dos processos,
-                sistemas e integrantes, nosso objetivo é através da
-                simplicidade solucionar os problemas de maneira
-                permanente, entendemos que diante de processos
-                eficientes, sistemas parametrizados e profissionais
-                treinados os recursos financeiros e a imagem da empresa
-                são preservados, é este o equilíbrio que buscamos levar
-                a nossos clientes.</p>
+                sistemas e integrantes. Nosso objetivo é através da
+                simplicidade solucionar os problemas de maneira permanente,
+                entendemos que diante de processos eficientes, sistemas
+                parametrizados e profissionais treinados os recursos
+                financeiros e a imagem da empresa são preservados e é este o
+                equilíbrio que buscamos levar aos nossos clientes.</p>
             </div>
          </div>
         </div>
@@ -45,7 +44,7 @@
                           <img class="img-responsive" src="../../static/images/reestruturacaoImg.jpg" alt="First slide">
                           <div class="carousel-caption card-shadow reveal">
                             <h4 style="color: #1763e9; margin-top: 30px">
-                              <strong>REESTRUTURAÇÃO – PROCESSO / SISTEMA / INTEGRANTE</strong>
+                              <strong>REESTRUTURAÇÃO – PROCESSOS, SISTEMAS  e INTEGRANTES</strong>
                             </h4>
                             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                               <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -58,11 +57,11 @@
                             <ul>
                               <li>Diagnóstico do departamento Financeiro;</li>
                               <li>Simplicidade nos processos e praticidade nas tomadas de decisão;</li>
-                              <li>Melhoria dos controles internos;</li>
+                              <li>Melhoria dos controles internos;•	Melhoria dos controles internos;</li>
                               <li>Eliminação da redundância de atividades;</li>
-                              <li>Aumento da eficiência no acesso a informação;</li>
-                              <li>Aumento da produtividade;</li>
-                              <li>Redução nos limites de tempo de resposta ao mercado;</li>
+                              <li>Aumento da eficácia no acesso a informação;</li>
+                              <li>Aumento de produtividade;</li>
+                              <li>Redução nos limites de tempo em resposta ao mercado;</li>
                               <li>Integração dos departamentos e das informações.</li>
                             </ul>
                             <router-link :to="{name: 'Servicos', hash: '#reestruturacao_section'}" tag="a" class="btn btn-primary" title="">
@@ -75,7 +74,7 @@
                           <div class="carousel-caption card-shadow reveal">
 
                               <h4 style="color: #1763e9; margin-top: 30px">
-                                <strong>ORGANIZAÇÃO E CONTROLE – CADASTRO, CRÉDITO E COBRANÇA.</strong>
+                                <strong>ORGANIZAÇÃO E CONTROLE – CRÉDITO E COBRANÇA</strong>
                               </h4>
                               <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                                 <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -86,12 +85,13 @@
                                 <span class="sr-only">Próximo</span>
                               </a>
                               <ul>
-                                <li>Intermediar – Interesses departamentos (Comercial x Financeiro);</li>
-                                <li>Crédito - Aumento de Venda x Redução de Inadimplência;</li>
-                                <li>Definir e Simplificar - Politica de Crédito e Cobrança;</li>
-                                <li>Preservar - Imagem frente aos Clientes e Recursos Financeiros;</li>
-                                <li>Solução Permanente - Problemas nos Processos e Sistema;</li>
-                                <li>Cobrança – Cumprir rigorosamente as etapas.</li>
+                                <li>Foco no aumento de Venda e na Redução de Inadimplência;</li>
+                                <li>Simplicidade e Clareza nos processos de Crédito e Cobrança;</li>
+                                <li>Sinergia entre os departamentos Comercial e Crédito e Cobrança;</li>
+                                <li>Solução permanente aos problemas existentes;</li>
+                                <li>Cumprimento rigoroso as etapas de Cobrança;</li>
+                                <li>Preservação da Imagem frente ao Mercado;</li>
+                                <li>Eliminação de Custos e despesas.</li>
                               </ul>
                             <router-link :to="{name: 'Servicos', hash: '#organizacaocredito_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
@@ -114,10 +114,12 @@
                                 <span class="sr-only">Próximo</span>
                               </a>
                             <ul>
-                              <li>Intermediar – Interesses departamentos (Compras x Financeiro);</li>
-                              <li>Definir e Simplificar - Politica de Pagamento;</li>
-                              <li>Preservar - Imagem frente ao Mercado e Recursos Financeiros;</li>
-                              <li>Solução Permanente – Problemas com Processos e Sistema;</li>
+                              <li>Foco em eliminar pagamentos em atraso e em duplicidade;</li>
+                              <li>Simplicidade e Clareza nos processos de Pagamento;</li>
+                              <li>Sinergia entre os departamentos de Compras e Contas a Pagar;</li>
+                              <li>Solução permanente aos problemas existentes;</li>
+                              <li>Preservação da Imagem frente ao Mercado;</li>
+                              <li>Eliminação de Custos e despesas.</li>
                             </ul>
                             <router-link :to="{name: 'Servicos', hash: '#organizacaopagar_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
@@ -139,11 +141,11 @@
                                 <span class="sr-only">Próximo</span>
                               </a>
                               <ul>
-                                <li>Temas a partir da dificuldade da empresa;</li>
-                                <li>Desenvolvimento Contínuo do Integrante;</li>
-                                <li>Validação do entendimento quanto a Processos e Sistema;</li>
-                                <li>Integração e espirito de Equipe;</li>
-                                <li>Valorização e Motivação do Integrante;</li>
+                                <li>Desenvolvimento Contínuo dos Integrantes;</li>
+                                <li>Validação do entendimento quanto a Processos e Sistemas;</li>
+                                <li>Integração e valorização do Espírito de Equipe;</li>
+                                <li>Acompanhamento e Motivação;</li>
+                                <li>Análise de Produtividade e Comprometimento.</li>
                               </ul>
                               <router-link :to="{name: 'Servicos', hash: '#treinamento_section'}" tag="a" class="btn btn-primary" title="">
                               Saiba Mais
@@ -161,15 +163,15 @@
         <div class="row section-container-spacer">
           <div class="col-xs-12 col-md-12">
             <h2>Quem somos</h2>
-            <p>Amigos e companheiros de trabalho em empresa de grande porte
-               da Construção Civil, hoje sócios, Renan Moura e Claudio Pereira
-               sempre em conversas informais discutiam a dificuldade que as empresas
-               possuem em fazer bem o “Básico”, falávamos que havia muita busca por
-               Consultorias, Processos, ferramentas em níveis “avançados” antes mesmo
-               de encontrarem a “Excelência” nos processos mais “Simples”, foi então
-               a decisão por levar eficiência através da simplicidade ao mercado
-               fundando a ESSENCIAL, onde a ideia é levar o que o significado no nome
-               já diz: “Dar atenção ao que é muito necessário”.</p>
+            <p>Amigos e companheiros de trabalho em empresa de grande
+              porte da Construção Civil, hoje sócios, Renan Moura e Claudio Pereira
+              sempre em conversas informais discutiam a dificuldade que as empresas
+              possuem em fazer bem o Básico, falávamos que havia muita busca por
+              Consultorias conceituadas e ferramentas avançadas antes mesmo de se
+              prepararem no cumprimento com excelência dos processos mais Simples,
+              então a decisão por levar eficiência através da simplicidade ao mercado
+              fundando a ESSENCIAL, onde a ideia é levar o que o significado no nome
+              já diz: Dar atenção ao que é muito necessário.</p>
           </div>
         </div>
         <div class="row">
@@ -271,7 +273,7 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Mensagem Enviada</h4>
+              <h4 class="modal-title">Mensagem</h4>
             </div>
             <div class="modal-body">
               <p>Assunto: {{subject}}</p>
