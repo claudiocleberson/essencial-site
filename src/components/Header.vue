@@ -17,8 +17,8 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <router-link to="/" tag="li" href="#"><a data-toggle="collapse" data-target=".navbar-collapse">Início</a></router-link>
-            <router-link to="/servicos" tag="li" href="#"><a data-toggle="collapse" data-target=".navbar-collapse">Serviços</a></router-link>
+            <router-link to="/" tag="li" href="#"><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#">Início</a></router-link>
+            <router-link to="/servicos" tag="li" href="#"><a data-toggle="collapse" data-target=".navbar-collapse.in" href="#">Serviços</a></router-link>
             <li>
               <p class="hidden">
                 <a href="./components.html" class="btn btn-default navbar-btn" title="">Components</a>
