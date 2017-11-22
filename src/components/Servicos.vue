@@ -1,6 +1,6 @@
 <template>
   <body> <!-- Add your content of header -->
-  <div class="footer-container white-text-container" style="margin-top: -15px">
+  <div class="footer-container white-text-container" style="margin-top: -15px;">
   </div>
     <div id="reestruturacao_section"  class="section-container">
         <div class="container">

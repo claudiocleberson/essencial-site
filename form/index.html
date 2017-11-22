@@ -1,0 +1,73 @@
+<!-- Change or deletion of the name attributes in the input tag will lead to empty values on record submission-->
+<form action='https://forms.zohopublic.com/virtualoffice10195/form/Contact/formperma/6_122k34jd9541d1a7h3h5H_K/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data' onSubmit="zf_validateandsubmitdata();"><input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+<input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+<h2>Contact</h2>
+<p>Contact form</p>
+<!--Email-->
+<label>Email 
+</label>
+<input type="text" maxlength="255" name="Email" value="" invlovedinsalesiq=false  fieldType=9 />
+<!--Single Line-->
+<label>Nome 
+</label>
+<input  type="text" name="SingleLine" value="" maxlength="255" invlovedinsalesiq=false />
+<p>Digitar nome</p>
+<!--Multi Line-->
+<label>Message 
+</label>
+<textarea name="MultiLine" maxlength="65535"></textarea>
+<p>Digite sua messagem</p>
+<button type="submit"><em>Submit</em></button></form><script type="text/javascript">var isSalesIQIntegrationEnabled = false;
+function zf_validateandsubmitdata(){
+if(isSalesIQIntegrationEnabled){
+var visitorinfo = {};
+var elements = document.getElementById("form").elements;
+for (var idx = 0; idx<elements.length;idx++) {
+var inpElem = elements[idx];
+var name = inpElem.getAttribute("name");
+var fieldType = inpElem.getAttribute("fieldType");
+if(fieldType==="1" || fieldType==="7" || fieldType==="9" || fieldType==="11"){
+var invlovedinsalesiq = inpElem.getAttribute("invlovedinsalesiq");
+if(fieldType==="1"){
+var nameFieldInvolved = inpElem.getAttribute("nameFieldInvolved");
+var phoneFieldInvolved = inpElem.getAttribute("phoneFieldInvolved");
+if(invlovedinsalesiq==="true"){
+if(phoneFieldInvolved){
+var salesIQValue=inpElem.value;
+visitorinfo.contactnumber = salesIQValue;
+}if(nameFieldInvolved){
+var salesIQValue=inpElem.value;
+visitorinfo.name = salesIQValue;
+}
+}
+}if(fieldType==="7"){
+if(invlovedinsalesiq==="true"){
+var salesIQValue=inpElem.value;
+visitorinfo.name = salesIQValue;
+}
+}if(fieldType==="9"){
+if(invlovedinsalesiq==="true"){
+var salesIQValue=inpElem.value;
+visitorinfo.email = salesIQValue;
+}
+}if(fieldType==="11"){
+if(invlovedinsalesiq==="true"){
+var compName = inpElem.getAttribute("compname");
+var phoneFormat = inpElem.getAttribute("phoneFormat");
+var salesIQValue="";
+if(phoneFormat==="1"){
+salesIQValue = document.getElementById("international_"+compName+"_countrycode").value; 
+}else{
+var countryCode = document.getElementById(compName+"_countrycode").value;
+var first = document.getElementById(compName+"_first").value;
+var last = document.getElementById(compName+"_second").value;
+salesIQValue =countryCode+first+last;
+}
+visitorinfo.contactnumber = salesIQValue;
+}
+}
+}
+}
+parent.postMessage(JSON.stringify({ type: 'zoho.salesiq.apimessage', visitor: visitorinfo } ), '*');// No I18N
+}
+}</script>

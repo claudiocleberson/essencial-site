@@ -1,7 +1,8 @@
 <template>
+
   <body> <!-- Add your content of header -->
   <!-- Add your site or app content here -->
-    <div class="hero-full-container background-image-container white-text-container">
+    <div v-if="!isOldBrowser" class="hero-full-container background-image-container white-text-container">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -13,6 +14,20 @@
         </div>
       </div>
     </div>
+
+    <!-- IE and older version -->
+      <div v-else class="hero-full-container background-image-container white-text-container" style="padding: 11%">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h1 style="font-size: 44px; font-family: monospace">ESSENCIAL</h1>
+              <h4 style="font-size: 22px">Simplificando Processos</h4>
+              <br>
+              <a href="#" v-scroll-to="'#aboutUs'" class="btn btn-default btn-lg" title="">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div id="aboutUs" class="section-container">
       <div class="container">
@@ -276,9 +291,9 @@
               <h4 class="modal-title">Mensagem</h4>
             </div>
             <div class="modal-body">
-              <p>Assunto: {{subject}}</p>
+              <p>Assunto: {{formData.subject}}</p>
               <p>Mensagem:</p>
-              <p>{{message}}</p>
+              <p>{{formData.message}}</p>
             </div>
             <div class="modal-footer">
               <button type="button" v-on:click="submitForm" class="btn btn-success" data-dismiss="modal">Enviar</button>
@@ -305,13 +320,13 @@
                         <p class="hidden">
                           <label>Don’t fill this out: <input name="bot-field"></label>
                         </p>
-                        <input type="email" v-model="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" v-model="formData.email" class="form-control" id="email" placeholder="Email">
                       </div>
                       <div class="form-group">
-                        <input type="text" v-model="subject" class="form-control" id="subject" placeholder="Assunto">
+                        <input type="text" v-model="formData.subject" class="form-control" id="subject" placeholder="Assunto">
                       </div>
                       <div class="form-group">
-                        <textarea class="form-control" v-model="message" rows="3" placeholder="Digite sua messagem"></textarea>
+                        <textarea class="form-control" v-model="formData.message" rows="3" placeholder="Digite sua messagem"></textarea>
                       </div>
                       <button type="button" :disabled="!formIsValid" data-toggle="modal" data-target="#formSubmitted" class="btn btn-primary">Enviar</button>
                     </div>
@@ -355,28 +370,84 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   data () {
     return {
-      email: '',
-      subject: '',
-      message: ''
+      formData:{
+        email: '',
+        subject: '',
+        message: ''
+      },
+      isOldBrowser: false
     }
   },
   computed :{
     formIsValid () {
-       return this.email !== ''
-       && this.subject !== ''
-       && this.message !== '';
+       return this.formData.email !== ''
+       && this.formData.subject !== ''
+       && this.formData.message !== '';
      },
   },
   methods: {
     submitForm () {
       var x = document.getElementById('contactForm');
-      x.submit();
-      console.log("Form submitted")
+      //axios.defaults.headers.post['content-type'] = 'application/x-www-form-urlencoded';
+      //axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+      //axios.defaults.headers.post['content-type'] = 'application/x-www-form-urlencoded';
+      var params = new URLSearchParams();
+      params.append('Email', this.formData.email);
+      params.append('SingleLine', this.formData.subject);
+      params.append('MultiLine', this.formData.message);
+
+      axios.post('https://forms.zohopublic.com/virtualoffice10195/form/Contact/formperma/6_122k34jd9541d1a7h3h5H_K/htmlRecords/submit',params)
+           .then(resp => {
+             console.log(resp);
+             this.formData.email = '';
+             this.formData.subject = '';
+             this.formData.message = '';
+             alert("Mensagem enviada, Muito obrigado!");
+           })
+           .catch(error => {
+             console.log('Error on submitting form: ',error);
+             this.formData.email = '';
+             this.formData.subject = '';
+             this.formData.message = '';
+             alert("Mensagem enviada, Muito obrigado!");
+           })
     },
-  }
+  },
+  created () {
+
+   var ua = window.navigator.userAgent;
+   var msie = ua.indexOf('MSIE ');
+   if (msie > 0) {
+     // IE 10 or older => return version number
+     console.log("IE 10 or older")
+     this.isOldBrowser = true;
+     return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+   }
+
+   var trident = ua.indexOf('Trident/');
+   if (trident > 0) {
+     // IE 11 => return version number
+     console.log("IE 11")
+     var rv = ua.indexOf('rv:');
+     this.isOldBrowser = true;
+     return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+   }
+
+   var edge = ua.indexOf('Edge/');
+   if (edge > 0) {
+     // Edge (IE 12+) => return version number
+     console.log("IE 12")
+     this.isOldBrowser = false;
+     return parseInt(ua.substring(edge + 5, ua.indexOf('.', edge)), 10);
+   }
+   // other browser
+   return false;
+   },
 }
 </script>
 
