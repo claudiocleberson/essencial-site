@@ -263,19 +263,14 @@
           </div>
         </div>
         <div class="row">
-          <div  class="col-xs-12 col-md-4">
+          <div  class="col-xs-12 col-md-6">
             <a href="http://www.ajaxbr.com.br" title="Website da Ajax">
               <img  src="../../static/images/ajax_logo.png" alt="" class="img-responsive reveal-content image-center">
             </a>
             </div>
-          <div  class="col-xs-12 col-md-4">
+          <div  class="col-xs-12 col-md-6">
             <a href="http://www.assystem.com.br" title="Web site da Assystem">
                 <img  src="../../static/images/assystem_logo.png" alt="" class="img-responsive reveal-content image-center">
-            </a>
-          </div>
-          <div class="col-xs-12 col-md-4">
-            <a title="Website Credito e Cobraça" href="http://www.creditoecobranca.com.br"  target="_blank">
-              <img src="../../static/images/creditocobraca_logo.png" alt="" class="img-responsive reveal-content image-center">
             </a>
           </div>
         </div>
